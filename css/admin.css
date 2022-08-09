@@ -1,0 +1,132 @@
+/* 
+auther sardar uzair
+css for admin 
+*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    /* border: 1px solid black; */
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: rgb(45, 78, 148);
+}
+.txt-center{
+    text-align: center;
+}
+/* footer */
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+/* footer end */
+
+/* menu start */
+.menu{
+    border-bottom: 1px solid black;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    color: #ff6b81;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+/* menu end */
+/* main content start*/
+
+.main-content{
+    margin: 0% 0;
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+table tr th{
+    padding: 1%;
+    border-bottom:solid 1px black ;
+    text-align: left;
+}
+table a{
+    text-decoration: none;
+    margin: .5%;
+}
+table tr td{
+    padding: 1%;
+}
+.tbl-30{
+    width: 30%;
+}
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    transition: .3s;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+ }
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: .3s;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+ }
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    transition: .3s;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+ }
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+/* table */
+.tbl-full{
+    width: 100%;
+}
+/* main content end*/
+/* login  */
+.login{
+    width: 15%;
+    border: 1px solid gray;
+    margin: 10% auto;
+    padding: 1%;
+    border-radius: 9px;
+}
+.suc{
+    color: #2ed573;
+}
+.fail{
+    color: #ff6b81;
+}
